@@ -1,0 +1,213 @@
+<html>
+  <head>
+    <title>Mein Restaurant - Bayrische Spezialitäten</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gotu&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "Gotu", sans-serif;
+        margin: 0px;
+      }
+
+      .header {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+      }
+
+      .bg1 {
+        padding-left: 140px !important;
+        padding-right: 140px !important;
+        padding: 16px;
+        background-color: #fae7c0;
+      }
+
+      .bg2 {
+        padding-left: 140px !important;
+        padding-right: 140px !important;
+        padding: 16px;
+        background-color: #faf3e3;
+      }
+
+      .menu {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        padding: 8px;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      .menu a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+      }
+
+      .menu a:hover {
+        text-decoration: underline;
+        color: blue;
+      }
+
+      .bg1:hover {
+        background-color: #b0d8f7;
+      }
+
+      .footer {
+        padding: 40px;
+        background-color: #e3decf;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .footer-child {
+        width: 30%;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img class="header" src="img/header.jpg" />
+
+    <div class="menu">
+      <a href="#restaurant">Unser Restaurant</a>
+      <a href="#open-hours">Öffnungszeiten</a>
+      <a href="#route">Anfahrt</a>
+      <a href="#contact">Kontakt</a>
+      <a href="#">Impressum</a>
+    </div>
+
+    <div class="bg1" id="restaurant">
+      <h1>Herzlich Willkommen</h1>
+      <br />
+      <br />
+      In unserem Restaurant findest du traditionelle bayrische Spezialitäten.<br />
+    </div>
+
+    <div class="bg2" id="open-hours">
+      <b>Unsere Öffnungszeiten</b><br />
+      Mo - Fr: 12.00 - 23.00 Uhr<br />
+      Sa: 11.00 - 24.00 Uhr<br />
+      So: 11.00 - 24.00 Uhr<br />
+    </div>
+
+    <div class="bg1" id="route">
+      <h2>Anfahrt</h2>
+      Unser Restaurant befindet sich in der
+      <i>Sonnenstraße 1, 12345 Glückshausen</i>. Fahren Sie über die A99 und
+      nehmen die <u>Ausfahrt in Richtung Glückshausen</u>.<br />
+      Dort finden Sie unser schönes Restaurant, in dem Sie gemütlich mit Blick
+      auf den See die <b>Spezialitäten des Hauses</b> genießen können. Wir
+      empfehlen Ihnen den <u>Entenbraten mit Semmelknödel und Blaukraut</u>.
+      <br />
+      <br />
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6245.127042209595!2d11.575912259003765!3d48.13423606766926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!     1s0x47a84e248d37632d%3A0xdead51b35f0e0bb3!2sMarienplatz!5e0!3m2!1sde!2sde!4v1675712302419!5m2!1sde!2sde"
+        width="800"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <div class="bg2">
+      <h2>Tageskarte</h2>
+
+      <table>
+        <tr>
+          <td>1</td>
+          <td>Entenbraten</td>
+          <td>15,90 €</td>
+          <td>
+            wird mit hausgemachten Semmelknödeln, Blaukraut in feiner
+            Pfeffersoße serviert
+          </td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Teufels-Pfanne</td>
+          <td>12,50 €</td>
+          <td>
+            Putengeschnetzeltes in pikanter Zigeunersoße, dazu Pommes Frites und
+            Salat
+          </td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Schnitzel "Wiener Art"</td>
+          <td>13,50€</td>
+          <td>dazu wahlweise Pommes Frites oder Bratkartoffeln und Salat</td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>Zwiebelrostbraten</td>
+          <td>16,90 €</td>
+          <td>
+            vom Grill, dazu Käsespätzle, Röstzwiebeln, Kräuterbutter und Salat
+          </td>
+        </tr>
+
+        <tr>
+          <td>5</td>
+          <td>Schweinelendchen</td>
+          <td>13,90 €</td>
+          <td>
+            vom Grill, mit Champignonsoße, hausgemachte Eierspätzle und Salat
+          </td>
+        </tr>
+
+        <tr>
+          <td>6</td>
+          <td>Rinderlende ca. 250g.</td>
+          <td>22,90 €</td>
+          <td>
+            medium gebraten mit Kräuterbutter dazu Pommes Frites und Salat
+          </td>
+        </tr>
+      </table>
+      <br />
+
+      Öffnen Sie unsere Tageskarte als
+      <a href="downloads/Tageskarte.pdf" target="_blank">PDF</a>.
+    </div>
+
+    <div class="bg1" id="contact">
+      <h2>Kontakt</h2>
+      Sie können uns gerne telefonisch oder per Email erreichen und einen Tisch
+      reservieren. <br />
+
+      Tel.: <a href="tel:+49 (0) 89 12345678">+49 (0) 89 12345678</a> <br />
+      E-Mail:
+      <a href="mailto:info@mein-restaurant.de">info@mein-restaurant.de</a>
+      <br />
+    </div>
+
+    <div class="footer">
+      <div class="footer-child">Copyright 2023 - Mein Fake Restaurant GbR</div>
+
+      <div class="footer-child">
+        Impressum<br />
+        Kontakt<br />
+        Datenschutz<br />
+        Cookie-Richtlinie
+      </div>
+    </div>
+  </body>
+</html>
