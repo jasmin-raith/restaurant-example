@@ -48,6 +48,13 @@
         background-color: rgba(0, 0, 0, 0.5);
       }
 
+      .language {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding: 8px;
+      }
+
       .menu a {
         color: white;
         font-size: 20px;
@@ -75,10 +82,11 @@
         color: white;
       }
     </style>
+    
   </head>
 
   <body>
-    <img class="header" src="img/header.jpg" />
+    <img class="header" src="img/header.jpg">
 
     <div class="menu">
       <a href="#restaurant">Unser Restaurant</a>
@@ -88,11 +96,11 @@
       <a href="#">Impressum</a>
     </div>
 
-    <div class="bg1" id="restaurant">
+    <div class="bg1">
       <h1>Herzlich Willkommen</h1>
       <br />
       <br />
-      In unserem Restaurant findest du traditionelle bayrische Spezialitäten.<br />
+      <p id="text1">In unserem Restaurant findest du traditionelle bayrische Spezialitäten.</p><br />
     </div>
 
     <div class="bg2" id="open-hours">
